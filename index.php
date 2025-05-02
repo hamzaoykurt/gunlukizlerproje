@@ -20,6 +20,7 @@
         }
 
     echo "<tr><td>";
+
     echo "<div class='post'>";
     if ($postpp) {
         echo "<div class='kullanicipost'><a href='profil1.php?c=$k_id'><img src='$postpp' class='userpicpost'></a>"; // Eğer kullanıcı fotoğrafı varsa onu kullan

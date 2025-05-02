@@ -1,0 +1,499 @@
+.kutu{
+
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1150px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+
+}
+.kutu1{
+
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 200px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.kutu2{
+
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 420px;
+    background-color:#62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.kutu3{
+
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 640px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.kutu4{
+
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 860px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.kutu5{
+
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1080px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.kutu6{
+
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1080px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.metin
+{
+    position: absolute;
+    color: white;
+    margin-left: 200px;
+    width: 930px;
+    margin-top: 50px;
+}
+.etkinlik_ekle
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1150px;
+    background-color: #62698B;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #121220;
+  }
+  
+  .ust-menu {
+    /*background-color: rgb(133, 123, 123);*/
+    position: relative;
+    height: 4rem;
+  }
+  
+  .logo {
+    margin-left: 5rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .slogan {
+    color: #a3a4a6;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+  }
+  
+  .arama {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 14em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #5c6370;
+    border-radius: 0.8em;
+    overflow: hidden;
+    margin-left: 37rem;
+    margin-top: -3.2rem;
+  }
+  
+  .search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+  }
+  
+  .inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+  
+  ::placeholder {
+    color: #abb2bf;
+  }
+  
+  /*.btn1 {
+  position: absolute;
+    border: 1px solid black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    transform: all 2s esase;
+    transition-duration: .3s;
+    margin-left: 57rem;
+    margin-top: -2.5rem;
+  }
+  
+  .btn2 {
+  position: absolute;
+    border: 1px solid black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    transform: all 2s esase;
+    transition-duration: .3s;
+    margin-left: 67rem;
+    margin-top: -2.5rem;
+  }
+  
+  .btn1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 1px rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  
+  .btn2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 1px rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  
+  .btn1:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 1px;
+  }
+  
+  .btn2:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 1px;
+  }*/
+  
+  .btn1 {
+    position: absolute;
+    --color: #a3a4a6;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2em;
+    line-height: 1em;
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 1;
+    color: #000;
+    border: 3px solid var(--color);
+    border-radius: 15px;
+    margin-left: 56rem;
+    margin-top: -2.1rem;
+  }
+  
+  .btn1:before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .btn1:hover {
+    color: white;
+  }
+  
+  .btn1:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .btn1:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .btn2 {
+    position: absolute;
+    --color: #a3a4a6;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2em;
+    line-height: 1em;
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 1;
+    color: #000;
+    border: 3px solid var(--color);
+    border-radius: 15px;
+    margin-left: 65rem;
+    margin-top: -2.1rem;
+  }
+  
+  .btn2:before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .btn2:hover {
+    color: white;
+  }
+  
+  .btn2:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .btn2:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  
+  .merhaba {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #d9d9d9;
+  position: absolute;
+  margin-top: -1.8rem;
+  margin-left: 78rem;
+  }
+  
+  .userpic {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  margin-top: -2.8rem;
+  margin-left: 91rem;
+  }
+  
+  .ust-cizgi {
+  margin-top: 1rem;
+  opacity: 31%;
+  /*width: 95rem;*/
+  }
+  
+  .sol-menu {
+  width: 15rem;
+  }
+  
+  .sol-cizgi{
+  opacity: 31%;
+  width: 0rem;
+  height: 50rem;
+  margin-left: 15rem;
+  }
+  
+  .sag-cizgi{
+  position: absolute;
+  opacity: 31%;
+  width: 0rem;
+  height: 50rem;
+  margin-left: 73rem;
+  margin-top: -50.6rem;
+  }
+  
+  .kategori{
+  position: absolute;
+  margin-top: -45rem;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 15rem;
+  }
+  
+  .kategori a {
+  font-size: 1.1rem;
+  color: #d9d9d9;
+  text-decoration: none;
+  line-height: 1.6;
+  margin-left: 4rem;
+  }
+  
+  .kategori a i{
+  margin-right: 15px;
+  }
+  
+  
+  .anasayfakategori{
+  font-family: 'Lexend Deca', sans-serif;
+  position: absolute;
+  margin-top: -48rem;
+  }
+  
+  .anasayfakategori a {
+  text-decoration: none;
+  color: #d9d9d9;
+  margin-left: 4rem;
+  
+  }
+  
+  .anasayfakategori a i {
+  margin-right:15px
+  }
+  
+  
+  .sol-ust-menu {
+  position: absolute;
+  opacity: 31%;
+  width: 14rem;
+  }
+  
+  .dikdortgen{
+  width: 180px;
+  height: 300px;
+  background-color: #62698B; 
+  border-radius: 15px;
+  margin-left: 25px;
+  margin-top: 38px;
+  }
+  
+  .soruisareti{
+  margin-top: 20px;
+  }
+  
+  .soruisareti i {
+  margin-right:15px
+  }
+  
+  .mesaj{
+  float: left;
+  }
+  
+  #mesajj{
+  font-size: 15px;
+  }
+  
+  .mesaj i {
+  margin-right:15px;
+  }
+  
+  
+  .kayit {
+    background-color: #0B0019;
+    height: 26rem;
+    width: 36rem;
+    margin-top: 6rem;
+  }
+  
+  .kayit p {
+    color: white;
+  }
+  
+  .kayitol {
+    background: url(pic/gunluk.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .kayitol {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .kayitol .kayitform {
+    background: #0b0019dc;
+    min-width: 874px;
+    min-height: 450px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kayitol h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  
+  .kayitol .kullanici {
+    margin-top: 29px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    font-size: 26px;
+    color: rgb(245, 245, 245);
+    padding: 6px;
+    background-color: transparent;
+    font-family: Quicksand;
+  }
+  
+  .kayitol .buton {
+    margin-top: 46px;
+    width: 210px;
+    height: 70px;
+    font-size: 27px;
+    background-color: whitesmoke;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: Quicksand;
+  }
+  
+  .kayitol .buton:hover {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+  }
+  
+  .kayitol .kayitform a {
+    color: whitesmoke;
+    font-size: 19px;
+  }
+  
+  .kayitol .kayitform p {
+    margin-top: 25px;
+    font-size: 19px;
+  }

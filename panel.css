@@ -1,0 +1,103 @@
+body {
+    background-color: #121220;
+}
+
+
+.listetablo {
+    background-color: grey;
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 9rem;
+}
+
+.guncelleme {
+  width: 2rem;
+  margin-right: 70rem;
+}
+
+
+.baslık {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .guncelleme .kullanici {
+    margin-top: 29px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    font-size: 26px;
+    color: rgb(245, 245, 245);
+    padding: 6px;
+    background-color: transparent;
+    font-family: Quicksand;
+  }
+  
+  .guncelleme .buton {
+    margin-top: 46px;
+    width: 210px;
+    height: 70px;
+    font-size: 27px;
+    background-color: whitesmoke;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: Quicksand;
+  }
+  
+  .guncelleme .buton:hover {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+  }
+  
+  .guncelleme .kayitform a{
+    color: whitesmoke;
+    font-size: 19px;
+  }
+  
+  .guncelleme .kayitform p {
+    margin-top: 25px;
+    font-size: 19px;
+  }
+
+  span {
+    color: white;
+  }
+
+  .butonlar {
+    font-family: inherit;
+    border: none;
+    outline: 1px dotted rgb(37, 37, 37);
+    outline-offset: -4px;
+    background: hsl(0deg 0% 75%);
+    box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+  }
+  
+  .butonlar:active {
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+  }
+
+  .postguncelle {
+    width: 2rem;
+    position: absolute;
+    margin-top: -35rem;
+    margin-left: 50rem;
+  }
+  .postguncelle .kullanici {
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    font-size: 26px;
+    color: rgb(245, 245, 245);
+    padding: 6px;
+    background-color: transparent;
+    font-family: Quicksand;
+    width: 20rem;
+  }
